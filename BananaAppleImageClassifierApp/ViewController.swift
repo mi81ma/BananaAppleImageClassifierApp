@@ -111,7 +111,7 @@ class ViewController: UIViewController {
         // AVCaptureDeviceInput --> AVCaptureSession
         captureSession.addInput(deviceInput)
 
-        // AVCaptureSession --> AVCaptureDeviceInput
+        // AVCaptureSession --> AVCaptureDeviceOuput
         captureSession.addOutput(deviceOutput)
 
         //MARK:- 5. AVCaptureVideoPreviewLayer
